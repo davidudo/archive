@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It is among the fastest algorithms in the best case scenerio, and is among the slowest alogorithms in the worst case scenerio.
+
+sort2 uses: Merge Sort
+
+How do you know?: In the worst case scenerio, it is faster than the other sorting algorithms, and in the best case scenerio, it is among the fastest algorithms.
+
+sort3 uses: Selection Sort
+
+How do you know?: It is the slowest in the best case scenerio, and also aamong the slowest algorithms in the worst case scenerio.

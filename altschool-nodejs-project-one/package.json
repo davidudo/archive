@@ -1,0 +1,16 @@
+{
+  "name": "altschool-nodejs-project-one",
+  "description": "Altschool NodeJS Assignment G",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start:dev": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "David Udo",
+  "license": "",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

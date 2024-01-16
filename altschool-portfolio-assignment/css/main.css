@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial:wght@400&display=swap');
+
+/*======= Colors =======*/
+
+:root {
+  /*==== Main Colors ====*/
+  --green-color: #03ef62;
+  --navy-color: #05192d;
+  
+  /*==== Secondary Colors ====*/
+  --blue-color: #06bdfc;
+  --red-color: #ff5400;
+  --orange-color: #ff931e;
+  --purple-color: #7933ff;
+  --pink-color: #ff6ea9;
+  --yellow-color: #fcce0d;
+  
+  /*==== Neutral Colors =====*/
+  --beige-color100: #fffbf3;
+  --beige-color200: #f7f3eb;
+  --beige-color300: #efebe4;
+  --beige-color400: #e5e1da;
+  
+  --grey-color100: #f7f7fc;
+  --grey-color200: #efefef;
+  --grey-color300: #e8e8ea;
+  --grey-color400: #d9d9e2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+}
+
+
+.form-main {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navy-color);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 7px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--navy-color);
+}
+
+.form-header h2 {
+  font-size: 1.4rem;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .form-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.7rem;
+}
+
+.form-content .form-label {
+  margin-bottom: 0.7rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-input {
+  border-radius: 3px;
+  border: 2px solid var(--beige-color400);
+  min-height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 17px;
+  color: var(--navy-color);
+  font-weight: 500;
+}
+
+.form-input::placeholder {
+  color: var(--grey-color400);
+}
+
+textarea {
+  padding: 1rem;
+}
+
+select {
+  background-color: #fff;
+}
+
+.btn-container {
+  width: 100%;
+  height: auto;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background-color: var(--green-color);
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+a:hover {
+   color: var(--blue-color);
+   text-decoration: underline;
+ }
+
+a:active {
+  color: var(--pink-color);
+}

@@ -1,0 +1,37 @@
+[{
+  "id":1,
+  "name":"Bennie Woodlands",
+  "email":"bwoodlands0@dailymail.co.uk",
+  "gender":"Male",
+  "password":"kfJ9q8OCBO"
+}, {
+  "id":2,
+  "name":"Henrietta Van Arsdall",
+  "email":"hvan1@hubpages.com",
+  "gender":"Female",
+  "password":"voZcXK8MOq"
+}, {
+  "id":3,
+  "name":"Freeman Hovey",
+  "email":"fhovey2@ebay.com",
+  "gender":"Male",
+  "password":"6Cx4RE34vJ0"
+}, {
+  "id":4,
+  "name":"Vinita Esson",
+  "email":"vesson3@ocn.ne.jp",
+  "gender":"Female",
+  "password":"oh12AdC"
+}, {
+  "id":5,
+  "name":"Mufi McCrie",
+  "email":"mmccrie4@sourceforge.net",
+  "gender":"Female",
+  "password":"UvRyOIcP"
+}, {
+  "name":"David Udo",
+  "email":"udodavidcontact@gmail.com",
+  "gender":"Male",
+  "password":"davidudo",
+  "id":6
+}]
