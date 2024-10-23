@@ -1,6 +1,6 @@
-# Frontend Mentor - Testimonials grid section
+# Frontend Mentor - Huddle landing page with curved sections
 
-![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -12,13 +12,14 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to:
+Your users should be able to: 
 
 - View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
