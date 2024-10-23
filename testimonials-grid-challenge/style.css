@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+:root {
+  /* === Primary Colours === */
+  --violet: hsl(263, 55%, 52%);
+  --opaque-violet: hsla(263, 55%, 52%, 70%);
+  --dark-gray-blue: hsl(217, 19%, 35%);
+  --black-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  /* === Neutral Colours === */
+  --gray: hsl(0, 0%, 81%);
+  --gray-blue: hsl(210, 46%, 95%);
+  --opaque-gray-blue: hsla(210, 46%, 95%, 50%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* === Card Styling  === */
+
+body {
+  background-color: var(--gray-blue);
+}
+
+main article {
+  padding: 1.5rem;
+  background-color: var(--white);
+  border-radius: 6px;
+  box-shadow: 0 1px 10px rgb(0 0 0 / 0.2);
+}
+
+main article header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+main article:nth-of-type(1) header img {
+  border: 2px solid var(--opaque-gray-blue);
+}
+
+main article header img {
+  height: 2.2rem;
+  border-radius: 50% 50%;
+  border: 2px solid var(--opaque-violet);
+}
+
+main article header p,
+main article .full-quote {
+  opacity: 60%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.logo-header {
+  padding: 1rem;
+  display: flex;
+  background-color: var(--white);
+  box-shadow: 0 1px 10px rgb(0 0 0 / 0.2);
+  color: var(--dark-gray-blue);
+}
+
+.violet-bg {
+  background-color: var(--violet);
+  color: var(--gray-blue);
+}
+
+.black-bg {
+  background-color: var(--black-blue);
+  color: var(--gray-blue);
+}
+
+.gray-bg {
+  background-color: var(--dark-gray-blue);
+  color: var(--gray-blue);
+}
+
+.quote-highlight {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.white-bg {
+  color: var(--dark-gray-blue);
+}
+
+.bg-quote {
+  background-image: url('images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: top 0% right 3rem;
+}
+
+/* === Grid Styling === */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  max-width: 1600px;
+  gap: 1rem;
+  margin: auto;
+}
+
+article:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+
+article:nth-of-type(2) {
+  grid-column: 3 / 4;
+}
+
+article:nth-of-type(3) {
+  grid-column: 1 / 2;
+}
+
+article:nth-of-type(4) {
+  grid-column: 2 / 4;
+}
+
+article:nth-of-type(5) {
+  grid-column: 4 / 5;
+}
+
+article:nth-of-type(5) {
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+
+@media (max-width: 760px) {
+  main {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  article:nth-of-type(1) {
+    grid-column: 1 / 5;
+  }
+
+  article:nth-of-type(2) {
+    grid-column: 1 / 5;
+  }
+
+  article:nth-of-type(3) {
+    grid-column: 1 / 5;
+  }
+
+  article:nth-of-type(4) {
+    grid-column: 1 / 5;
+  }
+
+  article:nth-of-type(5) {
+    grid-column: 1 / 5;
+  }
+
+  article:nth-of-type(5) {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+  }
+
+}
+
+@media (min-width: 800px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
